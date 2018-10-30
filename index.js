@@ -1,11 +1,13 @@
-function currentLine(line){
+var katzDeliLine = [];
+
+function currentLine(katzDeliLine){
   if(!line.length){
     return "The line is currently empty."
  }
- const numberAndNames = [];
+ 
  
   for (let i = 0, l = line.length; i<l; i++){
-    numberAndNames.push('${i+1}. ${line[i]}')
+    katzDeliLine.push('${i+1}. ${line[i]}')
   }
 }
 
@@ -16,7 +18,7 @@ function nowServing(line){
   return 'Currently serving ${line.shift()}.'
 }
 
-function takeANumber(katzDeliLine, "Ada"){
+function takeANumber(katzDeliLine, name){
   
     line.push(name);
   
