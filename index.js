@@ -16,9 +16,9 @@ function nowServing(line){
   return 'Currently serving ${line.shift()}.'
 }
 
-function takeANumber(line,name){
+function takeANumber(katzDeliLine, "Ada"){
   
     line.push(name);
   
-  return 'Welcome, Ada. You are number 1 in line.';
+  return 'Welcome, ${katzDeliLine}. You are number 1 in line.';
 }
