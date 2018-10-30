@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+var katzDeliLine = ["Ada", "Grace"];
 
 function currentLine(katzDeliLine){
   if(!katzDeliLine.length){
