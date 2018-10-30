@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
   return 'Currently serving ${line.shift()}.'
 }
 
-function takeANumber(katzDeliLine, [i]){
+function takeANumber(katzDeliLine, name){
   
     katzDeliLine.push(name);
   
